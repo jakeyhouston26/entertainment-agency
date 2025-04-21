@@ -1,0 +1,28 @@
+.homepage-hero {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1533106418989-88406c7b1b5b?auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+  
+  .homepage-hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 2;
+  }
+  
+  .homepage-hero .content {
+    z-index: 3;
+    position: relative;
+    padding: 2rem;
+    max-width: 600px;
+  }
+  
